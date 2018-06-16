@@ -52,7 +52,7 @@ i{
 	font-weight: 900;
 }
 
-#fullname, #age, #job, #hobbies, #location, #wants, #iconwrapper{
+#fullname, #age, #job, #hobbies, #location, #wants, #iconwrapper, #pro1, #pro2{
 	margin: 5px;
 	transition: color 0.6s ease-out;
 }
@@ -60,6 +60,11 @@ i{
 #fullname:hover, #age:hover, #job:hover, #hobbies:hover, #location:hover, #wants:hover{
 	margin: 5px;
 	color: #FF1493;
+}
+
+#pro1:hover, #pro2:hover{
+	margin: 5px;
+	color: rgb(140, 0, 255);
 }
 
 #age, #job, #hobbies, #location, #wants{
